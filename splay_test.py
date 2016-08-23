@@ -7,10 +7,10 @@ class TestCase(unittest.TestCase):
         self.t = SplayTree()
         for key in self.keys:
             self.t.insert(key)
-        
+
     def testInsert(self):
         for key in self.keys:
-            self.assertEquals(key, self.t.find(key))
+            self.assertEquals(key, self.t.find(key).key)
 
     def testRemove(self):
         for key in self.keys:
@@ -32,8 +32,8 @@ class TestCase(unittest.TestCase):
         self.assertTrue(t.isEmpty())
 
     def testMinMax(self):
-        self.assertEquals(self.t.findMin(), 0)
-        self.assertEquals(self.t.findMax(), 9)
+        self.assertEquals(self.t.findMin().key, 0)
+        self.assertEquals(self.t.findMax().key, 9)
 
 if __name__ == "__main__":
     unittest.main()

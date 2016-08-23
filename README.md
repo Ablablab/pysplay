@@ -1,4 +1,4 @@
-# PySplay
+# PySplay v2
 
 This is a fork of repo : [anoopj - pysplay](https://github.com/anoopj/pysplay)
 

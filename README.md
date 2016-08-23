@@ -1,12 +1,13 @@
 # PySplay
 
-This is a Python port of the original Java implementation by Danny Sleator (co-inventor of Splay Tree).
+This is a fork of repo : [anoopj - pysplay](https://github.com/anoopj/pysplay)
+
+# New Features
+
+* I added the field data for each node, so every node can carry informations or a pointer.
+
+* The function furthestNode() returns the lowest leaf of the tree, complexity is O(n). It can be easily improved, but complexity should not change. It uses recursive function heightNode(node) to inspect all nodes.
 
 ## Bug Reports
 
-If you come across any bugs, please raise it in the issue tracker. Even better, send me a pull request. 
-
-## Links
-
-http://www.link.cs.cmu.edu/link/ftp-site/splaying/
-
+You could raise new issues or pull requests for this repo. You should find my email in account details.

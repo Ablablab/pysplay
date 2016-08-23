@@ -6,7 +6,7 @@ This is a fork of repo : [anoopj - pysplay](https://github.com/anoopj/pysplay)
 
 * I added the field data for each node, so every node can carry informations or a pointer.
 
-* The function furthestNode() returns the lowest leaf of the tree, complexity is O(n). It can be easily improved, but complexity should not change. It uses recursive function heightNode(node) to inspect all nodes.
+* The function furthestNode() returns the lowest leaf of the tree (the node with greatest diameter from root), complexity is O(n). It can be easily improved, but complexity should not change. It uses recursive function heightNode(node) to inspect all nodes.
 
 ## Bug Reports
 
